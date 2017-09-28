@@ -7,9 +7,11 @@
     <version>1.0-SNAPSHOT</version>
     <name>network Maven Webapp</name>
     <url>http://maven.apache.org</url>
-    
+
     <properties>
         <junit.version>4.12</junit.version>
+        <jsoup.version>1.8.3</jsoup.version>
+        <json-lib.version>2.4</json-lib.version>
     </properties>
 
     <dependencies>
@@ -25,6 +27,24 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>${jsoup.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>net.sf.json-lib</groupId>
+            <artifactId>json-lib</artifactId>
+            <version>${json-lib.version}</version>
+            <classifier>jdk15</classifier>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.4.0</version>
+        </dependency>
+
     </dependencies>
     <build>
         <finalName>network</finalName>
