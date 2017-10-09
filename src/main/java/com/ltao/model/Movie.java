@@ -1,4 +1,4 @@
-package model;
+package com.ltao.model;
 
 public class Movie {
 

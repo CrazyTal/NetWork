@@ -1,10 +1,7 @@
-package util;
+package com.ltao.util;
 
 import javax.swing.*;
 
-/**
- * Created by ltao on 2017/9/28.
- */
 public class DialogUtil {
 
     static JPasswordField passwd = new JPasswordField(10);

@@ -1,6 +1,6 @@
-package main;
+package com.ltao.main;
 
-import model.Movie;
+import com.ltao.model.Movie;
 import net.sf.json.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -11,7 +11,7 @@ import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import util.DialogUtil;
+import com.ltao.util.DialogUtil;
 
 import java.io.FileWriter;
 import java.io.IOException;
